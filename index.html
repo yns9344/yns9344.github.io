@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="container">
+            <div class="nav-content">
+                <a class="logo">Yanis MECHETY</a>
+                <div class="nav-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#about">Mon CV</a>
+                    <a href="#contact">Me contacter</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Yanis Mechety</h1>
+                <h2>Étudiant en BUT Informatique</h2>
+                <p>Jeune professionnel dynamique, curieux et motivé, doté d'une grande ouverture d'esprit et animé par un désir constant d'apprendre. Je suis à la recherche d'opportunités me permettant de développer de nouvelles compétences et d’acquérir de l’expérience dans un environnement stimulant.</p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-outline">Me contacter</a>
+                    <a href="cv-yanis-mechety.pdf" class="btn btn-primary" download>Télécharger mon CV  </a> 
+                </div>
+            </div>
+        </div>
+        <div class="bubbles">
+          <span style="left: 10%; animation-duration: 12s; width: 15px; height: 15px;"></span>
+          <span style="left: 25%; animation-duration: 8s; width: 30px; height: 30px;"></span>
+          <span style="left: 40%; animation-duration: 10s; width: 18px; height: 18px;"></span>
+          <span style="left: 55%; animation-duration: 14s; width: 22px; height: 22px;"></span>
+          <span style="left: 70%; animation-duration: 9s; width: 70px; height: 70px;"></span>
+          <span style="left: 85%; animation-duration: 11s; width: 12px; height: 12px;"></span>
+          <span style="left: 15%; animation-duration: 13s; width: 20px; height: 20px;"></span>
+          <span style="left: 50%; animation-duration: 7s; width: 50px; height: 50px;"></span>
+      </div>
+
+    </section>
+
+<!-- Projects Section -->
+<section id="projets" class="projects">
+  <div class="container">
+    <h2>Mes Projets</h2>
+    <div class="projects-grid">
+      
+      <div class="project-card-container">
+        <div class="project-card" onclick="this.classList.toggle('flipped')">
+          <div class="project-card-front">
+            <img src="images/cordoue.jpg">
+            <h3>Cordoue numérique naît</h3>
+          </div>
+          <div class="project-card-back">
+            <p>Création d'un site web en équipe, en partenariat avec l'UNESCO.<br>Ce site permet de présenter la ville de Cordoue, située en Espagne.<br>Ce projet nous a permis de développer nos compétences en HTML, CSS, ainsi qu’en marketing et en gestion de projet.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card-container">
+        <div class="project-card" onclick="this.classList.toggle('flipped')">
+          <div class="project-card-front">
+            <img src="images/tetris2.jpg">
+            <h3>TETRIS</h3>
+          </div>
+          <div class="project-card-back">
+            <p>Création en binôme du jeu TETRIS<br>codé en Python, avec différents modes de jeu, notamment un mode duo.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card-container">
+        <div class="project-card" onclick="this.classList.toggle('flipped')">
+          <div class="project-card-front">
+            <img src="images/senior_meet.png">
+            <h3>Connecter les aînés</h3>
+          </div>
+          <div class="project-card-back">
+            <p>Ce projet visait à créer un réseau social destiné aux personnes âgées.<br>Réalisé en équipe, il nous a permis de développer nos compétences en HTML, CSS, PHP, bases de données et gestion de projet.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card-container">
+        <div class="project-card" onclick="this.classList.toggle('flipped')">
+          <div class="project-card-front">
+            <img src="images/dualboot.png">
+            <h3>DualBoot</h3>
+          </div>
+          <div class="project-card-back">
+            <p>Installation d'un second système d'exploitation sur notre machine personnelle.<br>
+            Ce projet consistait à installer Linux, ce qui nous a permis de découvrir un nouvel environnement et de développer nos compétences en recherche d'information.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card-container">
+        <div class="project-card" onclick="this.classList.toggle('flipped')">
+          <div class="project-card-front">
+            <img src="images/instalation_reseau.jpg">
+            <h3>Installation d'un réseaux</h3>
+          </div>
+          <div class="project-card-back">
+            <p>Projet consistant à créer et configurer un réseau local sur une machine virtuelle.<br>
+            Ce projet m'a permis de découvrir de nouveaux logiciels comme Netkit, ainsi que d’acquérir des connaissances sur l’architecture réseau.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card-container">
+        <div class="project-card" onclick="this.classList.toggle('flipped')">
+          <div class="project-card-front">
+            <img src="images/des.jpg">
+            <h3>Yams</h3>
+          </div>
+          <div class="project-card-back">
+            <p>Création en binôme du jeu Yams<br>codé en Java, jouable dans un premier temps via le terminal, puis via une interface graphique.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card-container">
+        <div class="project-card" onclick="this.classList.toggle('flipped')">
+          <div class="project-card-front">
+            <img src="images/cimetiere.jpg">
+            <h3>Cimetière sur le net</h3>
+          </div>
+          <div class="project-card-back">
+            <p>Création en binôme d’une base de données pour un cimetière.<br>Nous avons d'abord conçu la base de données, puis développé le site et l’avons rendu dynamique. Ce projet a renforcé nos compétences en gestion de bases de données, HTML, CSS et PHP.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card-container">
+        <div class="project-card" onclick="this.classList.toggle('flipped')">
+          <div class="project-card-front">
+            <img src="images/pizzaza.png">
+            <h3>Une pizza ?</h3>
+          </div>
+          <div class="project-card-back">
+            <p>Projet en équipe de création d’une application de commande de pizzas<br>codée en Java avec l’architecture MVC (Modèle-Vue-Contrôleur). Ce projet ambitieux permet aux clients de composer et commander la pizza de leurs rêves. Il a renforcé notre travail d'équipe et approfondi nos compétences techniques.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Curriculum Vitae</h2>
+            <div class="about-grid">
+                <div class="info-card">
+                    <div class="card-header">
+                        <i class="icon"></i>
+                        <h3>Langues</h3>
+                    </div>
+                    <ul>
+                        <li>Français Natif</li>
+                        <li><span>Anglais B2</span></li>
+                        <li><span>Espagnol Basique</span></li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-header">
+                        <i class="icon"></i>
+                        <h3>Atout Personnel</h3>
+                    </div>
+                    <ul>
+                       <li>Esprit d’équipe</li>
+                        <li>Professionnalisme</li>
+                        <li>Sociabilité</li>
+                        <li>Ponctualité</li>
+                        <li>Raisonnement logique</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-header">
+                        <i class="icon"></i>
+                        <h3>Compétences Techniques</h3>
+                    </div>
+                    <ul>
+                        <li>C</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Linux</li>
+                        <li>PHP</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <div class="card-header">
+                        <i class="icon"></i>
+                        <h3>Formation</h3>
+                    </div>
+                    <ul class="education-list">
+                        <li>
+                            <div class="edu-title">BUT Informatique</div>
+                            <div class="edu-institution">Université Gustave Eiffel</div>
+                            <div class="edu-year">Depuis 2024</div>
+                        </li>
+                        <li>
+                            <div class="edu-title">Baccalauréat général</div>
+                            <div class="edu-year">2024 - Mention Bien</div>
+                        </li>
+                        <li>
+                            <div class="edu-title">Brevet des collèges</div>
+                            <div class="edu-year">2020 - Mention Bien</div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="info-card experience-card">
+                    <div class="card-header">
+                        <i class="icon"></i>
+                        <h3>Expériences Professionnelles</h3>
+                    </div>
+                    <ul>
+                        <li>Déménageur</li>
+                        <li>Baby-sitter</li>
+                        <li>Livreur</li>
+                        <li>Vendeur</li>
+                        <li>Organisateur d’événements</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+        <!-- Contact Section -->
+    <section id="contact" class="contact">
+    <div class="container">
+        <h2>Contact</h2>
+        <div class="card-hover contact-box">
+        <div class="item">
+            <i class="icon"></i>
+            <div>
+            <div class="label">Email : mechetyyanis@gmail.com</div>
+            <a href="mailto:mechetyyanis@gmail.com">Cliquer pour m'envoyer un mail.</a>
+            </div>
+        </div>
+        <div class="item">
+            <i class="icon"></i>
+            <div>
+            <div class="label">Téléphone</div>
+            +33 6 68 18 ...
+            </div>
+        </div>
+        <div class="item">
+            <i class="icon"></i>
+            <div>
+            <div class="label">Adresse</div>
+            1 rue Jean Leonardi, Gournay-Sur-Marne
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+</body>
+</html>
+
